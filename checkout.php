@@ -7,6 +7,8 @@
         exit;
     }
 
+
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $requiredFields = ['firstName', 'lastName', 'addressLine1', 'town', 'postalCode', 'email', 'phoneNumber'];
         foreach ($requiredFields as $field) {
