@@ -12,6 +12,8 @@ class ReviewHandler
         $this->conn = $db->getConnection();
     }
 
+    
+
     public function handleReview($table, $reviewTable, $redirectPage)
     {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
