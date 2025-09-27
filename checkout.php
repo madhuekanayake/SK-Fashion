@@ -18,6 +18,8 @@
             }
         }
 
+        
+
         $customerName = $_SESSION['customer_name'];
         $firstName = $_POST['firstName'];
         $lastName = $_POST['lastName'];
